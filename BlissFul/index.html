@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GymOs · Panel de administración</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Menú lateral -->
+  <aside class="sidebar">
+    <div class="brand"><span class="logo">&#9646;&#9646;&#9646;</span> GymOs</div>
+    <p class="menu-label">Menú</p>
+    <nav id="nav">
+      <a href="#dashboard">▦ Panel</a>
+      <a href="#pos">🛒 Punto de venta</a>
+      <a href="#attendance">✅ Asistencia</a>
+      <a href="#members">👥 Miembros</a>
+      <a href="#memberships">🎫 Membresías</a>
+      <a href="#trainers">🏋️ Entrenadores</a>
+      <a href="#classes">📅 Clases</a>
+      <a href="#inventory">📦 Inventario</a>
+      <a href="#transactions">💲 Transacciones</a>
+    </nav>
+    <nav class="nav-bottom">
+      <a href="#settings">⚙️ Configuración</a>
+    </nav>
+  </aside>
+
+  <!-- Contenido -->
+  <div class="content">
+    <header class="topbar">
+      <div><small>GIMNASIO</small><strong id="gymName"></strong></div>
+      <span>John Doe</span>
+    </header>
+    <main id="view"></main>
+  </div>
+
+  <!-- Ventana para formularios -->
+  <dialog id="modal"></dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
